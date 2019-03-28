@@ -3,14 +3,14 @@ PictureLab Project For APCSA done with Connor Powell
 ## Questions
 ### Activity 1
 1. How many bits does it take to represent the values from 0 to 255?
-- ?
+- 8
 2. How many bytes does it take to represent a color in the RBG color model?
 - It takes three bytes to represent a color on the RBG model.
 3. How many pixels are in a picture that is 640 pixels wide and 480 pixels high?
 - There are 307200 pixels in a 640 x 480 pixel picture.
 ### Activity 2
 1. How can you make pink?
-- Connor  Bad
+- ?
 2. How can you make yellow?
 - ?
 3. How can you make purple?
