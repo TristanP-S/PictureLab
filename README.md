@@ -68,3 +68,33 @@ code compile?
 - **for (int row = 5; row <= 11; row++)**
 - **for (int col = 3; col <= 18; col++)**
 - ?
+## Exercises
+### Acitivty 3
+- 1: Complete (removed after completion)
+- 2: Complete (using mairo.png)
+### Activity 4
+- 1: Incomplete
+- 2: Incomplete
+- 3: Incomplete
+### Activity 5
+- 1: Incomplete
+- 2: Incomplete
+- 3: Incomplete
+- 4: Incomplete
+- 5: Incomplete
+- 6: Incomplete
+### Activity 6
+- 1: Incomplete
+- 2: Incomplete
+- 3: Incomplete
+- 4: Incomplete
+### Activity 7
+- 1: Incomplete
+- 2: Incomplete
+- 3: Incomplete
+### Activity 8
+- 1: Incomplete
+- 2: Incomplete
+### Activity 9
+- 1: Incomplete
+- 2: Incomplete
