@@ -42,7 +42,7 @@ displaying a picture so magnified that the individual pixels look like small squ
 - Yes
 3. Does the following code compile?
 - **DigitalPicture p = new DigitalPicture();**
-- No, DigitalPicture is an abstract class
+- No, DigitalPicture is an interface, so it can't be an object
 4. Assuming that a no-argument constructor exists for SimplePicture, would the following
 code compile?
 - **DigitalPicture p = new SimplePicture();**
