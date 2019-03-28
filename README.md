@@ -10,7 +10,7 @@ PictureLab Project For APCSA done with Connor Powell
 - There are 307200 pixels in a 640 x 480 pixel picture.
 ### Activity 2
 1. How can you make pink?
-- ?
+- Connor  Bad
 2. How can you make yellow?
 - ?
 3. How can you make purple?
