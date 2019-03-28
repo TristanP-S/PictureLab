@@ -41,23 +41,23 @@ displaying a picture so magnified that the individual pixels look like small squ
 2. Open SimplePicture.java and look for the method getPixels2D. Is it there?
 - Yes
 3. Does the following code compile?
-**DigitalPicture p = new DigitalPicture();**
+- **DigitalPicture p = new DigitalPicture();**
 - No, DigitalPicture is an abstract class
 4. Assuming that a no-argument constructor exists for SimplePicture, would the following
 code compile?
-**DigitalPicture p = new SimplePicture();**
+- **DigitalPicture p = new SimplePicture();**
 - Yes
 5. Assuming that a no-argument constructor exists for Picture, would the following
 compile?
-**DigitalPicture p = new Picture();**
+- **DigitalPicture p = new Picture();**
 - Yes
 6. Assuming that a no-argument constructor exists for Picture, would the following
 compile?
-**SimplePicture p = new Picture();**
+- **SimplePicture p = new Picture();**
 - Yes
 7. Assuming that a no-argument constructor exists for SimplePicture, does the following
 code compile?
-**Picture p = new SimplePicture();**
+- **Picture p = new SimplePicture();**
 - No
 ### Activity 7
 1. How many times would the body of this nested for loop execute?
