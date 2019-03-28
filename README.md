@@ -73,7 +73,7 @@ code compile?
 - 1: Complete (removed after completion)
 - 2: Complete (using mairo.png)
 ### Activity 4
-- 1: Incomplete
+- 1: Complete
 - 2: Incomplete
 - 3: Incomplete
 ### Activity 5
