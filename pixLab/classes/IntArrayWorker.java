@@ -2,7 +2,19 @@ public class IntArrayWorker
 {
   /** two dimensional matrix */
   private int[][] matrix = null;
-  
+  //finds the amount of a number there is in an array
+  public int getCount(int a){
+    int total=0;
+    for (int row = 0; row < matrix.length; row++)
+        {
+          for (int col = 0; col < matrix[0].length; col++)
+          {
+            if(matrix[row][col]==a)
+            total = total + matrix[row][col];
+          }
+        }
+          return total;
+  }
   /** set the matrix to the passed one
     * @param theMatrix the one to use
     */
