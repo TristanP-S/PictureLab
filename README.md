@@ -25,7 +25,7 @@ PictureLab Project For APCSA done with Connor Powell
 2. What is the column index for the top left corner of the picture?
 - 0
 3. The width of this picture is 640. What is the right most column index?
-- 339
+- 639
 4. The height of this picture is 480. What is the bottom most row index?
 - 479
 5. Does the row index increase from left to right or top to bottom?
