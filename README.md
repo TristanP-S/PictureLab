@@ -77,8 +77,8 @@ code compile?
 - 2: Complete
 - 3: Complete
 ### Activity 5
-- 1: Incomplete
-- 2: Incomplete
+- 1: Complete
+- 2: Complete
 - 3: Incomplete
 - 4: Incomplete
 - 5: Incomplete
