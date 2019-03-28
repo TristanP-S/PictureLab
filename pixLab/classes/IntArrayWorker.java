@@ -15,6 +15,28 @@ public class IntArrayWorker
         }
           return total;
   }
+  //finds the largest value in an array
+  public int getLargest(){
+    int max=0;
+    for (int row = 0; row < matrix.length; row++)
+        {
+          for (int col = 0; col < matrix[0].length; col++)
+          {
+            if(matrix[row][col]>max)
+            max=matrix[row][col];
+          }
+        }
+          return max;
+  }
+  //returns total value of items in a given column
+  public int getColTotal(int col){
+    int total=0;
+    for (int row = 0; row < matrix.length; row++)
+      {
+        total+=matrix[row][col];
+      }
+      return total;
+  }
   /** set the matrix to the passed one
     * @param theMatrix the one to use
     */
