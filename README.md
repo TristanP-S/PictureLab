@@ -74,8 +74,8 @@ code compile?
 - 2: Complete (using mairo.png)
 ### Activity 4
 - 1: Complete
-- 2: Incomplete
-- 3: Incomplete
+- 2: Complete
+- 3: Complete
 ### Activity 5
 - 1: Incomplete
 - 2: Incomplete
