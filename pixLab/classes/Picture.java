@@ -108,9 +108,9 @@ public class Picture extends SimplePicture
     Pixel leftPixel = null;
     Pixel rightPixel = null;
     int width = pixels[0].length;
-    for (int row = 0; row < pixels.length/2; row++)
+    for (int row = 0; row < pixels.length; row++)
     {
-      for (int col = 0; col < width/2; col++)
+      for (int col = 0; col < pixels.length; col++)
       {
         leftPixel = pixels[row][col];
         rightPixel = pixels[col][row];
