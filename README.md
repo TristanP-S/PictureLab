@@ -82,7 +82,7 @@ code compile?
 - 3: Complete
 - 4: Complete
 - 5: Complete
-- 6: Incomplete
+- 6: Complete
 ### Activity 6
 - 1: Incomplete
 - 2: Incomplete
