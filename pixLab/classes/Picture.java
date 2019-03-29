@@ -84,6 +84,40 @@ public class Picture extends SimplePicture
     return output;
     
   }
+  //mirrors the image horizontally
+  public void mirrorHorizontal()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int width = pixels[0].length;
+    for (int row = 0; row < pixels.length/2; row++)
+    {
+      for (int col = 0; col < width; col++)
+      {
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[(pixels.length-1)-row][col];
+        leftPixel.setColor(rightPixel.getColor());
+      }
+    } 
+  }
+  //mirrors the image left to right
+  public void mirrorVerticalRightToLeft()
+  {
+    Pixel[][] pixels = this.getPixels2D();
+    Pixel leftPixel = null;
+    Pixel rightPixel = null;
+    int width = pixels[0].length;
+    for (int row = 0; row < pixels.length; row++)
+    {
+      for (int col = width/2; col < width; col++)
+      {
+        leftPixel = pixels[row][col];
+        rightPixel = pixels[row][width - 1 - col];
+        leftPixel.setColor(rightPixel.getColor());
+      }
+    } 
+  }
   //makes a less blue shade of photo
   public void fixUnderwater(){
    Pixel[][] pixels = this.getPixels2D();

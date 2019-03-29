@@ -8,6 +8,23 @@
  */
 public class PictureTester
 {
+  //tests mirror horizontal
+  public static void testMirrorHorizontal()
+  {
+    Picture beach = new Picture("beach.jpg");
+    beach.explore();
+    beach.mirrorHorizontal();
+    beach.explore();
+  }
+  //t
+  //tests mirror vertical right to left
+  public static void testMirrorVerticalRightToLeft()
+  {
+    Picture beach = new Picture("beach.jpg");
+    beach.explore();
+    beach.mirrorVerticalRightToLeft();
+    beach.explore();
+  }
   //tests fixUnderwater Method
   public static void testFixUnderwater()
   {
@@ -98,6 +115,8 @@ public class PictureTester
     testGrayscale();
     testFixUnderwater();
     //testMirrorVertical();
+    testMirrorVerticalRightToLeft();
+    testMirrorHorizontal();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
