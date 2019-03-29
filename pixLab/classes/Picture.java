@@ -84,7 +84,59 @@ public class Picture extends SimplePicture
     return output;
     
   }
-  
+  //makes a less blue shade of photo
+  public void fixUnderwater(){
+   Pixel[][] pixels = this.getPixels2D();
+     for (Pixel[] rowArray : pixels)
+     {
+      for (Pixel pixelObj : rowArray)
+      {
+        if(pixelObj.getRed() < 20)
+        pixelObj.setBlue(0);
+      }
+    } 
+  }
+  //makes a gray shade of photo
+  public void grayscale(){
+   Pixel[][] pixels = this.getPixels2D();
+     for (Pixel[] rowArray : pixels)
+     {
+      for (Pixel pixelObj : rowArray)
+      {
+        int blue = pixelObj.getBlue();
+        int red = pixelObj.getRed();
+        int green = pixelObj.getGreen();
+        int average = (blue+red+green)/3;
+        pixelObj.setBlue(average);
+        pixelObj.setGreen(average);
+        pixelObj.setRed(average);
+      }
+    } 
+  }
+  //subtracts current RGB from MAX RGB
+  public void negate(){
+   Pixel[][] pixels = this.getPixels2D();
+     for (Pixel[] rowArray : pixels)
+     {
+      for (Pixel pixelObj : rowArray)
+      {
+        pixelObj.setBlue(255-pixelObj.getBlue());
+        pixelObj.setRed(255-pixelObj.getRed());
+        pixelObj.setGreen(255-pixelObj.getGreen());
+      }
+    } 
+  }
+  //keeps only blue
+  public void keepOnlyBlue(){
+    Pixel[][] pixels = this.getPixels2D();
+       for (Pixel[] rowArray : pixels)
+       {
+        for (Pixel pixelObj : rowArray)
+        {
+          pixelObj.setBlue(255);
+        }
+      }
+  } 
   /** Method to set the blue to 0 */
   public void zeroBlue()
   {
