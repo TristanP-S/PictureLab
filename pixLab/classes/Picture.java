@@ -91,8 +91,7 @@ public class Picture extends SimplePicture
      {
       for (Pixel pixelObj : rowArray)
       {
-        if(pixelObj.getRed() < 20)
-        pixelObj.setBlue(0);
+        pixelObj.setRed(pixelObj.getRed()*6);
       }
     } 
   }
