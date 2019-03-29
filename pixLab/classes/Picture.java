@@ -96,7 +96,7 @@ public class Picture extends SimplePicture
       for (int col = 0; col < width; col++)
       {
         leftPixel = pixels[row][col];
-        rightPixel = pixels[(pixels.length/2)+row][col];
+        rightPixel = pixels[pixels.length - 1 -row][col];
         leftPixel.setColor(rightPixel.getColor());
       }
     } 
@@ -114,7 +114,7 @@ public class Picture extends SimplePicture
       {
         leftPixel = pixels[row][col];
         rightPixel = pixels[(pixels.length-1)-row][col];
-        leftPixel.setColor(rightPixel.getColor());
+        rightPixel.setColor(leftPixel.getColor());
       }
     } 
   }
