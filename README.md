@@ -86,7 +86,7 @@ code compile?
 ### Activity 6
 - 1: Complete
 - 2: Complete
-- 3: Incomplete
+- 3: Complete
 - 4: Incomplete
 ### Activity 7
 - 1: Incomplete
