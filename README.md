@@ -79,7 +79,7 @@ code compile?
 ### Activity 5
 - 1: Complete
 - 2: Complete
-- 3: Incomplete
+- 3: Complete
 - 4: Incomplete
 - 5: Incomplete
 - 6: Incomplete
