@@ -89,9 +89,9 @@ code compile?
 - 3: Complete
 - 4: Complete
 ### Activity 7
-- 1: Incomplete
-- 2: Incomplete
-- 3: Incomplete
+- 1: Complete
+- 2: Complete
+- 3: Complete
 ### Activity 8
 - 1: Incomplete
 - 2: Incomplete
