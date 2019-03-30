@@ -352,6 +352,8 @@ public class Picture extends SimplePicture
   {
     Pixel leftPixel = null;
     Pixel rightPixel = null;
+    Pixel topPixel = null;
+    Pixel botPixel = null;
     Pixel[][] pixels = this.getPixels2D();
     Color rightColor = null;
     for (int row = 0; row < pixels.length; row++)
@@ -359,6 +361,16 @@ public class Picture extends SimplePicture
       for (int col = 0; 
            col < pixels[0].length-1; col++)
       {
+        for(int nRow = row; nRow < pixels.length; nRow++) {
+           topPixel = pixels[nRow][col];
+           botPixel = pixels[nRow + 1][col];
+           rightColor = botPixel.getColor();
+           if (topPixel.colorDistance(rightColor) > 
+            edgeDist)
+              topPixel.setColor(Color.BLACK);
+           else
+              topPixel.setColor(Color.WHITE);
+        }
         leftPixel = pixels[row][col];
         rightPixel = pixels[row][col+1];
         rightColor = rightPixel.getColor();
