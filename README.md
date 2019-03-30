@@ -1,5 +1,5 @@
 # PictureLab
-PictureLab Project For APCSA done with Connor Powell.
+PictureLab Project For AP Computer Science A done with Connor Powell in 2019.
 ## Questions
 ### Activity 1
 1. How many bits does it take to represent the values from 0 to 255?
@@ -97,4 +97,4 @@ code compile?
 - 2: Complete
 ### Activity 9
 - 1: Complete
-- 2: A third algorythm in order to find edge detection would be to check both horizontally+vertically to fully check for similarity.
+- 2: Type here
