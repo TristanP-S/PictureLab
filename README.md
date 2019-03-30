@@ -68,9 +68,6 @@ code compile?
 - **for (int row = 5; row <= 11; row++)**
 - **for (int col = 3; col <= 18; col++)**
 - This loop will execute 112 times.
-### Activity 9
-1. How can edge detection be coded differently but give you the same result
-- 
 ## Exercises
 ### Acitivty 3
 - 1: Complete (removed after completion)
@@ -100,4 +97,4 @@ code compile?
 - 2: Complete
 ### Activity 9
 - 1: Complete
-- 2: Type here
+- 2: Instead of going from top to bottom while doing edge detection, you could alternatively go from bottom to top.
