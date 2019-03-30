@@ -90,8 +90,8 @@ code compile?
 - 4: Complete
 ### Activity 7
 - 1: Complete
-- 2: Incomplete
-- 3: Incomplete
+- 2: Complete
+- 3: Complete
 ### Activity 8
 - 1: Incomplete
 - 2: Incomplete
