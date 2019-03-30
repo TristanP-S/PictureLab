@@ -8,21 +8,29 @@
  */
 public class PictureTester
 {
+  //tests copy method
+  public static void testCopy(){
+    Picture beach = new Picture("beach.jpg");
+    Picture seagull = new Picture("seagull.jpg");
+    beach.explore();
+    beach.copy(seagull, 0, 0, 100, 100);
+    beach.explore();
+  }
   //tests mirror diagonally 
   public static void testMirrorGull()
   {
-    Picture beach = new Picture("seagull.jpg");
-    beach.explore();
-    beach.mirrorGull();
-    beach.explore();
+    Picture seagull = new Picture("seagull.jpg");
+    seagull.explore();
+    seagull.mirrorGull();
+    seagull.explore();
   }
   //tests mirror arms
   public static void testMirrorArms()
   {
-    Picture beach = new Picture("snowman.jpg");
-    beach.explore();
-    beach.mirrorArms();
-    beach.explore();
+    Picture snowman = new Picture("snowman.jpg");
+    snowman.explore();
+    snowman.mirrorArms();
+    snowman.explore();
   }
   //te
   //tests mirror diagonally 
@@ -151,11 +159,11 @@ public class PictureTester
     //testMirrorHorizontal();
     //testMirrorHorizontalBotToTop();
     //testMirrorTemple();
-    testMirrorArms();
-    testMirrorGull();
+    //testMirrorArms();
+    //testMirrorGull();
     //testMirrorDiagonal();
     //testCollage();
-    //testCopy();
+    testCopy();
     //testEdgeDetection();
     //testEdgeDetection2();
     //testChromakey();
