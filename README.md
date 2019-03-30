@@ -1,5 +1,5 @@
 # PictureLab
-PictureLab Project For APCSA done with Connor Powell
+PictureLab Project For APCSA done with Connor Powell.
 ## Questions
 ### Activity 1
 1. How many bits does it take to represent the values from 0 to 255?
