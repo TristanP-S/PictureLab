@@ -93,7 +93,7 @@ code compile?
 - 2: Complete
 - 3: Complete
 ### Activity 8
-- 1: Incomplete
+- 1: Complete
 - 2: Incomplete
 ### Activity 9
 - 1: Incomplete
