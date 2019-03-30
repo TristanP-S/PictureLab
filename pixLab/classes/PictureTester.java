@@ -9,6 +9,23 @@
 public class PictureTester
 {
   //tests mirror diagonally 
+  public static void testMirrorGull()
+  {
+    Picture beach = new Picture("seagull.jpg");
+    beach.explore();
+    beach.mirrorGull();
+    beach.explore();
+  }
+  //tests mirror arms
+  public static void testMirrorArms()
+  {
+    Picture beach = new Picture("snowman.jpg");
+    beach.explore();
+    beach.mirrorArms();
+    beach.explore();
+  }
+  //te
+  //tests mirror diagonally 
   public static void testMirrorDiagonal()
   {
     Picture beach = new Picture("beach.jpg");
@@ -134,9 +151,9 @@ public class PictureTester
     //testMirrorHorizontal();
     //testMirrorHorizontalBotToTop();
     //testMirrorTemple();
-    //testMirrorArms();
-    //testMirrorGull();
-    testMirrorDiagonal();
+    testMirrorArms();
+    testMirrorGull();
+    //testMirrorDiagonal();
     //testCollage();
     //testCopy();
     //testEdgeDetection();
