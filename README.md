@@ -96,5 +96,5 @@ code compile?
 - 1: Complete
 - 2: Complete
 ### Activity 9
-- 1: Incomplete
+- 1: Complete
 - 2: Incomplete
