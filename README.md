@@ -67,7 +67,10 @@ code compile?
 2. How many times would the body of this nested for loop execute?
 - **for (int row = 5; row <= 11; row++)**
 - **for (int col = 3; col <= 18; col++)**
-- This loop will execute 117 times.
+- This loop will execute 112 times.
+### Activity 9
+1. How can edge detection be coded differently but give you the same result
+- 
 ## Exercises
 ### Acitivty 3
 - 1: Complete (removed after completion)
