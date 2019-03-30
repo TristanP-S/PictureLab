@@ -97,4 +97,4 @@ code compile?
 - 2: Complete
 ### Activity 9
 - 1: Complete
-- 2: Write Here
+- 2: A third algorythm in order to find edge detection would be to check both horizontally+vertically to fully check for similarity.
