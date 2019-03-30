@@ -94,7 +94,7 @@ code compile?
 - 3: Complete
 ### Activity 8
 - 1: Complete
-- 2: Incomplete
+- 2: Complete
 ### Activity 9
 - 1: Incomplete
 - 2: Incomplete
