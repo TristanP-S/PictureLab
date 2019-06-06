@@ -1,5 +1,5 @@
 # PictureLab
-PictureLab Project For AP Computer Science A done with Connor Powell in 2019.
+PictureLab Project For AP Computer Science A done with Connor Powell in 2019. I got a 100% on this assignment.
 ## Questions
 ### Activity 1
 1. How many bits does it take to represent the values from 0 to 255?
